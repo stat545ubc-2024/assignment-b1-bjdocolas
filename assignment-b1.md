@@ -14,8 +14,8 @@ code chunk, I will both (1) make the function and (2) use **roxygen2
 tags** to document the function.
 
 ``` r
-#' Title: Generate bar graph plot with SD error bars
-#' Description: This function creates a bar graph plot displaying the mean of a numerical y-variable with standard deviation error bars, across a specified categorical x-variable.
+#' @title generate bar graph plot with SD error bars
+#' @description This function creates a bar graph plot displaying the mean of a numerical y-variable with standard deviation error bars, across a specified categorical x-variable.
 
 #' @param data A dataset containing the variables to be plotted.
 #' @param x_var The categorical variable to be plotted on the x-axis.
@@ -145,7 +145,7 @@ test_that("plot_with_error_bars function works correctly", {
 })
 ```
 
-    ## Test passed 🥇
+    ## Test passed 🥳
 
 #### Test 2: use expect_s3_class()
 
@@ -195,4 +195,4 @@ test_that("plot_with_error_bars generates a warning with NA values", {
 })
 ```
 
-    ## Test passed 🎊
+    ## Test passed 😀
