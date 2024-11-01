@@ -1,6 +1,6 @@
 ---
 title: "Assignment b-1 Making a Function"
-output: html_document
+output: github_document
 
 Student: Brittany Docolas (61795738)
 ---
@@ -10,7 +10,7 @@ Student: Brittany Docolas (61795738)
 ### Making a function for a bar graph with standard deviation error bars
 I will create a function that **generates a bar graph** (using ggplot2) where the x-axis variable is categorical and the y-axis variable is numerical. This function will also **generate error bars** based on the standard deviation. This is a common type of plot I generate with my own data and will be useful for future data visualization. In the following code chunk, I will both (1) make the function and (2) use **roxygen2 tags** to document the function.
 ```{r}
-#' @title generate bar graph plot with SD error bars
+#' @title Generate bar graph plot with SD error bars
 #' @description This function creates a bar graph plot displaying the mean of a numerical y-variable with standard deviation error bars, across a specified categorical x-variable.
 
 #' @param data A dataset containing the variables to be plotted.
